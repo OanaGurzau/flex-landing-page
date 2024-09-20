@@ -3,9 +3,14 @@
     padding: 0;
     font-family:'Lucida Sans', Verdana, sans-serif;
 }
+
 .top,.footer{
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.top{
+    padding: 0 200px;
 }
 
 .footer{
@@ -15,7 +20,7 @@
     padding: 40px;
 }
 .header{
-    padding: 20px;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,4 +36,35 @@ ul{
     font-size: 24px;
 }
 
+.hero{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-text h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-image{
+    min-width: 400px;
+    height: 200px;
+    background-color: #b3b3b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 8px 30px;
+    border-radius: 10px;
+    border : none;
+    margin-top: 10px;
+    font-weight: bold;
+}
 
