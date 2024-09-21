@@ -107,3 +107,20 @@ h2{
     text-align: center;
     padding: 10px 0;
 }
+
+.quotes{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+p.author{
+    text-align: right;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.quotes{
+    padding: 120px 220px;
+}
