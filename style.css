@@ -86,6 +86,7 @@ ul{
     display: flex;
     justify-content: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .square{
@@ -124,7 +125,7 @@ h2{
 }
 
 .content-quotes{
-    max-width: 700px;
+    max-width: 900px;
 }
 
 p.author{
